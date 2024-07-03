@@ -30,10 +30,6 @@ body {
   margin: 0 2.9rem;
 }
 
-.content {
-  padding: 3rem 3rem;
-}
-
 .image-header {
   background-image: url(../images/drawers.jpg);
   border-radius: 1.5rem 1.5rem 0 0;
@@ -44,6 +40,9 @@ body {
   background-size: cover;
 }
 
+.content-description {
+  padding: 2rem 3rem 0 3rem;
+}
 .content-description h1 {
   color: hsl(217, 19%, 35%);
   font-weight: 700;
@@ -52,13 +51,14 @@ body {
 }
 .content-description p {
   color: hsl(214, 17%, 51%);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
-.author-share-info {
+.content-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2rem 3rem 3rem 3rem;
 }
 
 .author-info {
@@ -126,9 +126,15 @@ body {
     width: 60%;
     padding: 4rem;
   }
+  .content-description {
+    padding: 0;
+  }
   .content-description h1 {
     font-size: 2rem;
     margin-top: 0;
+  }
+  .content-footer {
+    padding: 0;
   }
   .share button:hover {
     cursor: pointer;

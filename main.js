@@ -1,5 +1,7 @@
 const desktopMedia = window.matchMedia("(min-width: 768px)");
 
+const contentFooter = document.querySelector(".content-footer");
+
 const shareButton = document.querySelector(".share-button");
 const shareOptions = document.querySelector(".share-options");
 const authorInfo = document.querySelector(".author-info");
@@ -18,11 +20,12 @@ shareButton.onclick = function () {
       console.log("removing hidden class");
       //   shareOptions.classList.remove("hidden");
       authorInfo.classList.remove("hidden");
-      shareButton.style.justifyContent = "space";
+      contentFooter.style.justifyContent = "space-between";
     } else {
       console.log("adding hidden class");
       //   shareOptions.classList.add("hidden");
       authorInfo.classList.add("hidden");
+      contentFooter.style.justifyContent = "flex-end";
     }
   }
 };
