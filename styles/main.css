@@ -116,7 +116,6 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  opacity: 1;
   padding: 0 3rem;
 }
 .share-options span {
@@ -161,6 +160,9 @@ body {
   .content-footer {
     padding: 0;
   }
+  .share {
+    position: relative;
+  }
   .share button:hover {
     cursor: pointer;
     background-color: hsl(214, 17%, 51%);
@@ -177,7 +179,7 @@ body {
     align-items: center;
     justify-content: space-around;
     width: 23rem;
-    padding: 1.5rem 2.5rem;
+    padding: 2.5rem 2.5rem;
   }
   .share-options span {
     text-transform: uppercase;
