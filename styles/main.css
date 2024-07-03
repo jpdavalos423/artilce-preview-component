@@ -97,5 +97,23 @@ body {
 @media (min-width: 768px) {
   .card-wrapper {
     flex-direction: row;
+    max-width: 72.5rem;
+    height: 30rem;
+  }
+  .image-header {
+    width: 40%;
+    height: 100%;
+    border-radius: 1rem 0 0 1rem;
+  }
+  .image-header img {
+    height: 100%;
+  }
+  .content {
+    width: 60%;
+    padding: 4rem;
+  }
+  .content-description h1 {
+    font-size: 2rem;
+    margin-top: 0;
   }
 }/*# sourceMappingURL=main.css.map */
