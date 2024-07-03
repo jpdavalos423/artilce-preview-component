@@ -97,11 +97,11 @@ body {
 .share-options {
   display: flex;
   align-items: center;
-  img {
+  input {
     background-color: hsl(210, 46%, 95%);
+    padding: 1rem;
     border-radius: 36rem;
-    padding: 1.2rem;
-    width: 4rem;
+    width: 100%;
   }
 }
 
