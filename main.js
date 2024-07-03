@@ -19,12 +19,12 @@ shareButton.onclick = function () {
     if (authorInfo.classList.contains("hidden")) {
       console.log("removing hidden class");
       //   shareOptions.classList.remove("hidden");
-      authorInfo.classList.remove("hidden");
+      // authorInfo.classList.remove("hidden");
       contentFooter.style.justifyContent = "space-between";
     } else {
       console.log("adding hidden class");
       //   shareOptions.classList.add("hidden");
-      authorInfo.classList.add("hidden");
+      // authorInfo.classList.add("hidden");
       contentFooter.style.justifyContent = "flex-end";
     }
   }
