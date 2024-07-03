@@ -25,6 +25,8 @@ body {
   background-color: hsl(0, 0%, 100%);
   color: hsl(212, 23%, 69%);
   border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
   margin: 0 2.9rem;
 }
 
@@ -90,4 +92,10 @@ body {
   border-radius: 36rem;
   padding: 1.2rem;
   width: 4rem;
+}
+
+@media (min-width: 768px) {
+  .card-wrapper {
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=main.css.map */
