@@ -97,6 +97,7 @@ body {
 .share {
   display: flex;
   align-items: center;
+  position: relative;
   button {
     background-color: hsl(210, 46%, 95%);
     padding: 1rem;
@@ -105,8 +106,8 @@ body {
   }
 }
 
-.share:hover {
-  button {
+.share {
+  button:hover {
     cursor: pointer;
     background-color: hsl(214, 17%, 51%);
     img {
@@ -114,6 +115,38 @@ body {
         hue-rotate(261deg) brightness(105%) contrast(104%);
     }
   }
+}
+
+.share-options {
+  background-color: hsl(217, 19%, 35%);
+  position: absolute;
+  border-radius: 1rem;
+  transform: translate(-42.5%, -150%);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 22rem;
+  padding: 1.5rem 2.5rem;
+  span {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.share-options-tip {
+  background-color: hsl(217, 19%, 35%);
+  position: absolute;
+  padding: 1rem;
+  rotate: 45deg;
+
+  transform: translate(88%, 88%);
 }
 
 @media (min-width: 768px) {
