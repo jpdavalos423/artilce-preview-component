@@ -94,14 +94,25 @@ body {
   justify-content: space-between;
 }
 
-.share-options {
+.share {
   display: flex;
   align-items: center;
-  input {
+  button {
     background-color: hsl(210, 46%, 95%);
     padding: 1rem;
     border-radius: 36rem;
     width: 100%;
+  }
+}
+
+.share:hover {
+  button {
+    cursor: pointer;
+    background-color: hsl(214, 17%, 51%);
+    img {
+      filter: brightness(0) saturate(100%) invert(100%) sepia(96%) saturate(18%)
+        hue-rotate(261deg) brightness(105%) contrast(104%);
+    }
   }
 }
 
