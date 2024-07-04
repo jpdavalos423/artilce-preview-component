@@ -94,6 +94,7 @@ body {
   padding: 1rem;
   border-radius: 36rem;
   width: 100%;
+  transition: 0.1s linear;
 }
 
 .share button:hover {
@@ -129,6 +130,12 @@ body {
 
 .hidden {
   display: none;
+}
+
+.attribution {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 99%;
 }
 
 @media (min-width: 768px) {
